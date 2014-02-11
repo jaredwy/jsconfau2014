@@ -1,0 +1,146 @@
+#main {
+	margin: 1rem auto;
+	width: 42rem;
+}
+
+h1 {
+  font-family: 'sega', sans-serif;
+	font-size: 4.5rem;
+	font-weight: 300;
+	margin: 0 0 1rem;
+}
+
+h2 {
+	background-color: orange;
+	color: black;
+  font-family: 'sega', sans-serif;
+	font-size: 3rem;
+	font-weight: 300;
+	margin: 0 0 1rem;
+	padding: 1rem 1rem .5rem;
+}
+
+#nav {
+	margin-top: 2rem;
+}
+
+#nav li {
+	background-image: url(../graphics/grid.png);
+  background-size: 100%;
+  display: inline-block;
+	font-family: "press_start", sans-serif;
+  height: 8rem;
+	margin-bottom: 3rem;
+	margin-right: .4rem;
+  position: relative;
+  width: 8rem;
+}
+
+#nav li::after {
+  background-color: rgba(0, 0, 0, .5);
+  content: " ";
+  height: inherit;
+  position: absolute;
+  width: inherit;
+}
+
+#nav li.current::after {
+  background-color: transparent;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+  color: orange;
+  content: "1P";
+	font-size: 2rem;
+	height: 40%;
+	padding-top: 90%;
+	text-align: center;
+	text-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.5);
+}
+
+#nav li span {
+	color: darkgoldenrod;
+	position: absolute;
+	text-align: center;
+	text-shadow: .125rem .125rem .25rem rgb(0, 0, 0);
+	top: -1.5rem;
+	width: 100%;
+	z-index: 99;
+}
+
+#nav li.current span {
+	color: orange;
+}
+
+#player {
+	border: .12rem solid orange;
+}
+
+#player div {
+	position: relative;
+}
+
+#player figure {
+	background-size: 100%; 
+	width: 55%;
+	margin: 0 .5rem .5rem 44%;
+	height: 0;
+	padding-top: 55%;
+}
+
+#player h3 {
+	color: orange;
+	font-family: "sega", sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 0 1rem;
+	position: absolute;
+}
+
+#player dl {
+	color: darkgoldenrod;
+	line-height: 1.6;
+	margin: 1rem;
+	position: absolute;
+	top: 3rem;
+}
+
+#player dt {
+	font-family: "press_start", sans-serif;
+	position: relative;
+}
+
+#player dd {
+	background-image: url(../graphics/star.png);
+	height: 2.5rem;
+	margin: 0 0 1rem;
+	position: relative;
+}
+
+#player .stars-5 {
+	width: 12.5rem;
+}
+
+#player .stars-45 {
+	width: 11.2rem;
+}
+
+#player .stars-4 {
+	width: 10rem;
+}
+
+#player .stars-35 {
+	width: 8.6rem;
+}
+
+#player .stars-3 {
+	width: 7.5rem;
+}
+
+
+
+
+
+
+
