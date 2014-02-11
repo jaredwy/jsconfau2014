@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-	background-color: orange;
+	background-color: rgb(240, 219, 79);
 	color: black;
   font-family: 'sega', sans-serif;
 	font-size: 3rem;
@@ -49,7 +49,7 @@ h2 {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;
-  color: orange;
+  color: rgb(240, 219, 79);
   content: "1P";
 	font-size: 2rem;
 	height: 40%;
@@ -59,7 +59,7 @@ h2 {
 }
 
 #nav li span {
-	color: darkgoldenrod;
+	color: rgb(240, 219, 79);
 	position: absolute;
 	text-align: center;
 	text-shadow: .125rem .125rem .25rem rgb(0, 0, 0);
@@ -69,11 +69,11 @@ h2 {
 }
 
 #nav li.current span {
-	color: orange;
+	color: rgb(240, 219, 79);
 }
 
 #player {
-	border: .12rem solid orange;
+	border: .12rem solid rgb(240, 219, 79);
 }
 
 #player div {
@@ -89,7 +89,7 @@ h2 {
 }
 
 #player h3 {
-	color: orange;
+	color: rgb(240, 219, 79);
 	font-family: "sega", sans-serif;
 	font-size: 2rem;
 	font-weight: 300;
@@ -99,7 +99,7 @@ h2 {
 }
 
 #player dl {
-	color: darkgoldenrod;
+	color: rgb(240, 219, 79);
 	line-height: 1.6;
 	margin: 1rem;
 	position: absolute;
