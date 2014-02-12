@@ -20,6 +20,9 @@ var players = {
 			"name": "New Player",
 			"handle": "newplayer0",
 			"photo": "newplayer.png",
+			"stats": {
+				"?": 2,
+			}
 		},
 		{
 			"name": "unknown",
@@ -38,11 +41,13 @@ var players = {
 			}
 		},
 		{
-			"name": "unknown",
-			"handle": "unknown",
-			"photo": "moomoopixel.png",
+			"name": "Dominic Tarr",
+			"handle": "dom",
+			"photo": "domtarr.jpeg",
 			"stats": {
-				"?": 4.5,
+				"Wizards": 5,
+				"Node": 4,
+				"Performance" : 3
 			}
 		},
 		{
