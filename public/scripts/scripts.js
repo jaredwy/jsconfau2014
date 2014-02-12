@@ -15,7 +15,7 @@ var PLYR = {
       item = document.createElement("li");
       item.id = players.lineup[i].handle;
       span = document.createElement("span");
-      span.innerHTML = players.lineup[i].name;
+      span.innerHTML = players.lineup[i].name == "unknown" ? "?" : players.lineup[i].name;
       item.appendChild(span);
       temporary.appendChild(item);
     }

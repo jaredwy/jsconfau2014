@@ -22,32 +22,27 @@ var players = {
 			"photo": "newplayer.png",
 		},
 		{
-			"name": "Moo Moo",
-			"handle": "moomoo",
-			"photo": "moomoo.png",
+			"name": "unknown",
+			"handle": "unknown",
+			"photo": "moomoopixel.png",
 			"stats": {
-				"JavaScript": 5,
-				"Ninja": 5
+				"?": 3,
 			}
 		},
 		{
-			"name": "Sharkie",
-			"handle": "sharkie",
-			"photo": "sharkie.png",
+			"name": "unknown",
+			"handle": "unknown",
+			"photo": "moomoopixel.png",
 			"stats": {
-				"JavaScript": 4,
-				"jQuery": 4.5,
-				"DOM": 4.5
+				"?": 4,
 			}
 		},
 		{
-			"name": "Jared Wyles",
-			"handle": "rioter",
-			"photo": "rioter.png",
+			"name": "unknown",
+			"handle": "unknown",
+			"photo": "moomoopixel.png",
 			"stats": {
-				"JavaScript": 4.5,
-				"jQuery": 3,
-				"Adobe": 5
+				"?": 4.5,
 			}
 		},
 		{
