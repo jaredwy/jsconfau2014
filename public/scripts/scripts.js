@@ -75,7 +75,7 @@ var PLYR = {
 		var type;
 		var definition;
 
-    document.querySelector('#player h2').innerHTML = players.lineup[this.ONE].name;
+    document.querySelector('#player h2').innerHTML = players.lineup[this.ONE].name === 'unknown' ? "?" :  players.lineup[this.ONE].name;
 	  document.querySelector('#player figure').style.backgroundImage = "url(data/photos/" + players.lineup[this.ONE].photo + ")";
 
 		if (stats) {
