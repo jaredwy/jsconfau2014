@@ -44,6 +44,7 @@ var players = {
 			"name": "Dominic Tarr",
 			"handle": "dom",
 			"photo": "domtarr.jpeg",
+			"twitter": "https://twitter.com/dominictarr",
 			"stats": {
 				"Wizards": 5,
 				"Node": 4,
@@ -54,6 +55,7 @@ var players = {
 			"name": "Jen Fong-Adwent",
 			"handle": "jenfongadwent",
 			"photo": "jenfongadwent.jpg",
+			"twitter": "https://twitter.com/ednapiranha",
 			"stats": {
 				"GIFs": 5,
 				"WebRTC": 4,

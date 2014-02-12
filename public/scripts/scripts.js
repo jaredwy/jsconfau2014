@@ -8,15 +8,18 @@ var PLYR = {
     var nav = document.querySelectorAll('#nav ol')[0];
     var temporary = document.createElement("ol");
     var length = players.lineup.length;
-    var item, span;
+    var item, span, anchor;
     var i = 0;
 
     for (; i < length; i += 1) {
       item = document.createElement("li");
+      anchor = document.createElement("a");
+      anchor.setAttribute("href", players.lineup[i].twitter);
       item.id = players.lineup[i].handle;
       span = document.createElement("span");
+      item.appendChild(anchor);
       span.innerHTML = players.lineup[i].name == "unknown" ? "?" : players.lineup[i].name;
-      item.appendChild(span);
+      anchor.appendChild(span);
       temporary.appendChild(item);
     }
     nav.innerHTML = temporary.innerHTML;          
@@ -75,7 +78,7 @@ var PLYR = {
 		var type;
 		var definition;
 
-    document.querySelector('#player h2').innerHTML = players.lineup[this.ONE].name === 'unknown' ? "?" :  players.lineup[this.ONE].name;
+    document.querySelector('#player h2').innerHTML = players.lineup[this.ONE].name === 'unknown' ? "?" :  "<a href="+ players.lineup[this.ONE].twitter  +">"+ players.lineup[this.ONE].name +"</a>";
 	  document.querySelector('#player figure').style.backgroundImage = "url(data/photos/" + players.lineup[this.ONE].photo + ")";
 
 		if (stats) {
