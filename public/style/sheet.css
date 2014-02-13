@@ -4,7 +4,7 @@
 	padding-top: 15px;
 }
 
-h1 {
+#main h1 {
   font-family: 'sega', sans-serif;
 	font-size: 4.5rem;
 	font-weight: 300;
@@ -205,6 +205,8 @@ body > header {
         text-decoration: none;
         color: white;
         font-family: 'VT323', seriff;
+        font-weight: bold;
+
     }
     .nav-row  nav > ul li:hover {
         text-decoration: underline;
