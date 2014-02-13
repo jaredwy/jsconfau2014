@@ -176,6 +176,57 @@ body > header {
     }
 
 
+    .nav-row {
+        background-color: black;
+    }
+    .nav-row  nav {
+        background-color: black;
+        max-width: 1049px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-row  nav > ul {
+        margin: 0px;
+        overflow: hidden;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .nav-row  nav > ul li {
+        float: left;
+        min-width: 170px;
+        padding-right: 30px;
+        font-size: 1.4em;
+        list-style-type: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .nav-row  nav a {
+        text-decoration: none;
+        color: white;
+        font-family: 'VT323', seriff;
+    }
+    .nav-row  nav > ul li:hover {
+        text-decoration: underline;
+    }
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px) {
+    section img {
+        height: 117px;
+    }
+
+    nav {
+        max-width: 250px;
+    }
+    section {
+        padding: 0;
+    }
+    section article {
+        margin: 0;
+    }
 
 
 
