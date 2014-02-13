@@ -1,6 +1,7 @@
 #main {
 	margin: 1rem auto;
 	width: 42rem;
+	padding-top: 15px;
 }
 
 h1 {
@@ -140,7 +141,39 @@ h2 a{
 	width: 7.5rem;
 }
 
+body > header {
+        background-image: url("../images/headbackground.png");
+        height: 500px;
+        padding-top: 50px;
+        position: relative;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-color: black;
+    }
 
+
+    .callout {
+        font-size: 2em;
+       	font-family: 'VT323', serif;
+    }
+
+   .info  img {
+        height: 250px;
+        -webkit-transform:rotate(180deg);
+        -moz-transform:rotate(180deg);
+        -ms-transform:rotate(180deg);
+        -o-transform:rotate(180deg);
+        transform:rotate(180deg);
+    }
+    body > header h1 {
+        color: white;
+        font-family: 'VT323', seriff;
+        font-size: 3em;
+    }
+    header .info {
+        margin: auto;
+    }
 
 
 
