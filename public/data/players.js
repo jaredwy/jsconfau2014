@@ -1,44 +1,22 @@
 var players = {
-	"lineup" :[
-/*		
+	"lineup": [
 		{
-			"name": "New Player",
-			"handle": "newplayer3",
-			"photo": "newplayer.png",
-		},
-		{
-			"name": "New Player",
-			"handle": "newplayer2",
-			"photo": "newplayer.png",
-		},
-		{
-			"name": "New Player",
-			"handle": "newplayer1",
-			"photo": "newplayer.png",
-		},
-*/	{
-			"name": "New Player",
-			"handle": "newplayer0",
-			"photo": "newplayer.png",
-			"stats": {
-				"?": 2,
-			}
-		},
-		{
-			"name": "unknown",
+			"name": "locked",
 			"handle": "unknown",
 			"photo": "moomoopixel.png",
-			"stats": {
-				"?": 3,
-			}
+			"stats": {}
 		},
 		{
-			"name": "unknown",
+			"name": "locked",
 			"handle": "unknown",
 			"photo": "moomoopixel.png",
-			"stats": {
-				"?": 4,
-			}
+			"stats": {}
+		},
+		{
+			"name": "locked",
+			"handle": "unknown",
+			"photo": "moomoopixel.png",
+			"stats": {}
 		},
 		{
 			"name": "Dominic Tarr",
@@ -48,7 +26,7 @@ var players = {
 			"stats": {
 				"Wizards": 5,
 				"Node": 4,
-				"Performance" : 3
+				"Performance": 3
 			}
 		},
 		{
@@ -61,6 +39,6 @@ var players = {
 				"WebRTC": 4,
 				"Node": 3
 			}
-		},
+		}
 	]
 }
