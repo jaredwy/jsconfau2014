@@ -10,6 +10,20 @@ var PLYR = {
     var length = players.lineup.length;
     var item, span, anchor;
     var i = 0;
+		var enlongen = function(string) {
+			var name = string.split(" ");
+			var member, temp;
+
+			for (member in name) {
+				if (name[member].indexOf("-") < 0 && name[member].length > 7) {
+					name[member] = "<b><i>" + name[member].substring(0, 8) + "</i>" + name[member].substring(8) + "</b>";
+				} else {
+					name[member] = "<s>" + name[member] + "</s>";
+				}
+			}
+
+			return name.join(" ");
+		}
 
     for (; i < length; i += 1) {
       item = document.createElement("li");
@@ -18,7 +32,7 @@ var PLYR = {
       item.id = players.lineup[i].handle;
       span = document.createElement("span");
       item.appendChild(anchor);
-      span.innerHTML = players.lineup[i].name == "unknown" ? "?" : players.lineup[i].name;
+      span.innerHTML = players.lineup[i].name == "unknown" ? "?" : enlongen(players.lineup[i].name);
       anchor.appendChild(span);
       temporary.appendChild(item);
     }
