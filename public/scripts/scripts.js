@@ -80,7 +80,7 @@ var PLYR = {
 
     document.querySelector('#player h2').innerHTML = players.lineup[this.ONE].name === 'unknown' ? "?" :  "<a href="+ players.lineup[this.ONE].twitter  +">"+ players.lineup[this.ONE].name +"</a>";
 	  document.querySelector('#player figure').style.backgroundImage = "url(data/photos/" + players.lineup[this.ONE].photo + ")";
-
+    document.querySelector('#player').className = players.lineup[this.ONE].handle;
 		if (stats) {
 			for (member in players.lineup[this.ONE].stats) {
 				type = document.createElement('dt');

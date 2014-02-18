@@ -6,10 +6,23 @@
   background-image: url(../data/avatars/all/dom_320.png);
 }
 
+#nav #amy {
+  background-image: url(../data/avatars/all/amy_320.png);
+}
+
+
 #nav #unknown {
   background-image: url(../data/avatars/all/moomoopixel_320.png);
 }
 
 #nav #jenfongadwent {
   background-image: url(../data/avatars/all/jenfongadwent_320.png);
+}
+
+#nav #alex {
+  background-image: url(../data/avatars/all/alex_320.png);
+}
+
+#player.alex figure {
+	background-size: 117%;
 }

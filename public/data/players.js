@@ -25,19 +25,25 @@ var players = {
 			}
 		},
 		{
-			"name": "unknown",
-			"handle": "unknown",
-			"photo": "moomoopixel.png",
+			"name": "Alex Feyerke",
+			"handle": "alex",
+			"photo": "alex.png",
+			"twitter": "https://twitter.com/espylaub",
 			"stats": {
-				"?": 3,
+				"Hoodies": 5,
+				"Web": 4,
+				"Offline": 3
 			}
 		},
 		{
-			"name": "unknown",
-			"handle": "unknown",
-			"photo": "moomoopixel.png",
+			"name": "Amy Palamountain",
+			"handle": "amy",
+			"photo": "amy_320.png",
+			"twitter": "https://twitter.com/ammeep",
 			"stats": {
-				"?": 4,
+				"Arse-banana": 5,
+				"Large Codebases": 4,
+				"MVC": 3
 			}
 		},
 		{
