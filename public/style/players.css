@@ -21,7 +21,3 @@
 #nav #alex {
   background-image: url(../data/avatars/all/alex_320.png);
 }
-
-#player.alex figure {
-	background-size: 117%;
-}

@@ -9,7 +9,7 @@ var players = {
 		{
 			"name": "Alex Feyerke",
 			"handle": "alex",
-			"photo": "alex.png",
+			"photo": "alex_320.png",
 			"twitter": "https://twitter.com/espylaub",
 			"stats": {
 				"Hoodies": 5,
