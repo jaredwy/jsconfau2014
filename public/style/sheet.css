@@ -75,6 +75,21 @@ h2 a{
 	color: rgb(240, 219, 79);
 }
 
+#nav b {
+	display: inline-block;
+	font-weight: 300;
+	text-align: left;
+}
+
+#nav i {
+	display: inline-block;
+	font-style: normal;
+}
+
+#nav s {
+	text-decoration: inherit;
+}
+
 #player {
 	border: .12rem solid rgb(240, 219, 79);
 }
