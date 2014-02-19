@@ -13,8 +13,8 @@ var players = {
 			"twitter": "https://twitter.com/espylaub",
 			"stats": {
 				"Hoodies": 5,
-				"Web": 4,
-				"Offline": 3
+				"Offline": 4,
+				"Web Apps": 3.5
 			}
 		},
 		{
@@ -24,7 +24,7 @@ var players = {
 			"twitter": "https://twitter.com/ammeep",
 			"stats": {
 				"Arse-banana": 5,
-				"Large Codebases": 4,
+				"Large Codebases": 3.5,
 				"MVC": 3
 			}
 		},
