@@ -23,6 +23,7 @@ var players = {
 			"photo": "amy_320.png",
 			"twitter": "https://twitter.com/ammeep",
 			"stats": {
+				"Kermit Hands": 5,
 				"Large Codebases": 3.5,
 				"MVC": 3
 			}
