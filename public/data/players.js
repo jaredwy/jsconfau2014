@@ -23,7 +23,6 @@ var players = {
 			"photo": "amy_320.png",
 			"twitter": "https://twitter.com/ammeep",
 			"stats": {
-				"Arse-banana": 5,
 				"Large Codebases": 3.5,
 				"MVC": 3
 			}
