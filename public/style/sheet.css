@@ -157,6 +157,54 @@ h2 a {
 	width: 7.5rem;
 }
 
+#speaker {
+	border: .1rem dashed #F0DB4F;
+	border-top: none;
+	color: #F0DB4F;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	position: relative;
+}
+
+#speaker dl {
+	margin: .125rem 0 .25rem;
+}
+
+#speaker dt {
+	background-color: #F0DB4F;
+	color: black;
+	cursor: pointer;
+	opacity: .5;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 49.6%;
+}
+
+#speaker dt:first-child {
+	right: 50%;
+	width: 50%;
+}
+
+#speaker dt a {
+	display: inline-block;
+	padding: .25rem .5rem;
+}
+
+#speaker dd {
+	display: none;
+	margin: 0 .5rem;
+	padding-top: 2.5rem;
+}
+
+#speaker dt.active {
+	opacity: 1;
+}
+
+#speaker dd.active {
+	display: block;
+}
+
 body > header {
         background-image: url("../images/headbackground.png");
         height: 500px;
