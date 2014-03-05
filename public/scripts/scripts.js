@@ -57,6 +57,7 @@ var PLYR = {
 
     this.PLAYERS.players[this.ONE].className = "current";
     this.update();
+    this.oneup();
   },
   set: function() {
     this.PLAYERS.players = [].slice.call(document.querySelectorAll('#nav li'));
@@ -111,11 +112,18 @@ var PLYR = {
 
 		document.querySelector('#player dl').innerHTML = list.innerHTML;
   },
+	oneup: function() {
+		var up = players.lineup[this.ONE]["1up"];
+		var bio = players.lineup[this.ONE]["bio"];
+
+		console.log(up + " | " + bio);
+	},
   init: function() {
     this.listen();
     this.create();
     this.set();
     this.update();
+    this.oneup();
   }
 }
 PLYR.init();
