@@ -7,6 +7,46 @@ var players = {
 			"stats": {}
 		},
 		{
+			"name": "locked",
+			"handle": "unknown",
+			"photo": "moomoopixel.png",
+			"stats": {}
+		},
+		{
+			"name": "locked",
+			"handle": "unknown",
+			"photo": "moomoopixel.png",
+			"stats": {}
+		},
+		{
+			"name": "locked",
+			"handle": "unknown",
+			"photo": "moomoopixel.png",
+			"stats": {}
+		},
+		{
+			"name": "David Herman",
+			"handle": "david",
+			"twitter": "https://twitter.com/littlecalculist",
+			"photo": "david.png",
+			"stats": {
+				"EffectiveJS": 5,
+				"TC-39": 3.5,
+				"Propeller Head": 3
+			}
+		},
+		{
+			"name": "Pete Hunt",
+			"twitter": "https://twitter.com/floydophone",
+			"handle": "pete",
+			"photo": "pete.jpg",
+			"stats": {
+				"ReactJS": 5,
+				"Selfies": 4.5,
+				"DOM": 3.5
+			}
+		},
+		{
 			"name": "Alex Feyerke",
 			"handle": "alex",
 			"photo": "alex_320.png",

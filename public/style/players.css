@@ -2,6 +2,15 @@
   background-image: url(../data/avatars/all/moomoo.png);
 }
 
+#nav #david {
+  background-image: url(../data/avatars/all/davidpixel.png);
+}
+
+
+#nav #pete {
+  background-image: url(../data/avatars/all/petepixel.png);
+}
+
 #nav #dom {
   background-image: url(../data/avatars/all/dom_320.png);
 }
