@@ -31,7 +31,7 @@ var players = {
 			"photo": "david.png",
 			"stats": {
 				"EffectiveJS": 5,
-				"TC-39": 3.5,
+				"TC39": 3.5,
 				"Propeller Head": 3
 			}
 		},
