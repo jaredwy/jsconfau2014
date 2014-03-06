@@ -156,6 +156,10 @@ h2 a{
 	width: 7.5rem;
 }
 
+#player .stars-0 {
+    width: 0rem;
+}
+
 body > header {
         background-image: url("../images/headbackground.png");
         height: 500px;

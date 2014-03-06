@@ -43,7 +43,7 @@ var players = {
 			"stats": {
 				"ReactJS": 5,
 				"Selfies": 4.5,
-				"DOM": 3.5
+				"DOM": 0
 			}
 		},
 		{
