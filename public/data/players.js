@@ -33,7 +33,9 @@ var players = {
 				"EffectiveJS": 5,
 				"TC39": 3.5,
 				"Propeller Head": 3
-			}
+			},
+			"1up": "i am a developer",
+			"bio": "i talk about the javascripts"
 		},
 		{
 			"name": "Pete Hunt",
@@ -44,7 +46,9 @@ var players = {
 				"ReactJS": 5,
 				"Selfies": 4.5,
 				"DOM": 0
-			}
+			},
+			"1up": "i too am a developer",
+			"bio": "i too talk about the javascripts"
 		},
 		{
 			"name": "Alex Feyerke",
@@ -55,7 +59,9 @@ var players = {
 				"Hoodies": 5,
 				"Offline": 4,
 				"Web Apps": 3.5
-			}
+			},
+			"1up": "similarly, i am a developer",
+			"bio": "similarly, i talk about the javascripts"
 		},
 		{
 			"name": "Amy Palamountain",
@@ -66,7 +72,9 @@ var players = {
 				"Kermit Hands": 5,
 				"Large Codebases": 3.5,
 				"MVC": 3
-			}
+			},
+			"1up": "i also am a developer",
+			"bio": "i also talk about the javascripts"
 		},
 		{
 			"name": "Dominic Tarr",
@@ -77,7 +85,9 @@ var players = {
 				"Wizards": 5,
 				"Node": 4,
 				"Performance": 3
-			}
+			},
+			"1up": "i are a developer",
+			"bio": "i speak about the javascripts"
 		},
 		{
 			"name": "Jen Fong-Adwent",
@@ -88,7 +98,9 @@ var players = {
 				"GIFs": 5,
 				"WebRTC": 4,
 				"Node": 3
-			}
+			},
+			"1up": "i am a developer, also",
+			"bio": "i talk about the javascripts, also"
 		}
 	]
 }

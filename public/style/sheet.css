@@ -11,15 +11,17 @@
 	margin: 0 0 1rem;
 }
 
-h2,
-h2 a{
+h2 {
 	background-color: rgb(240, 219, 79);
+	margin: 0 0 1rem;
+	padding: 1rem 1rem .5rem;
+}
+
+h2 a {
 	color: black;
   font-family: 'sega', sans-serif;
 	font-size: 3rem;
 	font-weight: 300;
-	margin: 0 0 1rem;
-	padding: 1rem 1rem .5rem;
 	text-decoration: none;
 }
 
@@ -55,7 +57,6 @@ h2 a{
   color: rgb(240, 219, 79);
   content: "1P";
 	font-size: 2rem;
-	height: 40%;
 	padding-top: 90%;
 	text-align: center;
 	text-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.5);
@@ -156,8 +157,56 @@ h2 a{
 	width: 7.5rem;
 }
 
+
 #player .stars-0 {
     width: 0rem;
+
+#speaker {
+	border: .1rem dashed #F0DB4F;
+	border-top: none;
+	color: #F0DB4F;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	position: relative;
+}
+
+#speaker dl {
+	margin: .125rem 0 .25rem;
+}
+
+#speaker dt {
+	background-color: #F0DB4F;
+	color: black;
+	cursor: pointer;
+	opacity: .5;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 49.6%;
+}
+
+#speaker dt:first-child {
+	right: 50%;
+	width: 50%;
+}
+
+#speaker dt a {
+	display: inline-block;
+	padding: .25rem .5rem;
+}
+
+#speaker dd {
+	display: none;
+	margin: 0 .5rem;
+	padding-top: 2.5rem;
+}
+
+#speaker dt.active {
+	opacity: 1;
+}
+
+#speaker dd.active {
+	display: block;
 }
 
 body > header {

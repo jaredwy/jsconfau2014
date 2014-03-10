@@ -57,18 +57,37 @@ var PLYR = {
 
     this.PLAYERS.players[this.ONE].className = "current";
     this.update();
+    this.oneup();
   },
   set: function() {
+  	var titles = [].slice.call(document.querySelectorAll('#speaker dt'));
+	  var definitions = [].slice.call(document.querySelectorAll('#speaker dd'));
+		var tapclick = function() {
+			titles[0].className = "";
+			titles[1].className = "";
+			this.className = "active";
+
+			definitions[0].className = "";
+			definitions[1].className = "";
+			definitions[this.getAttribute("data-which")].className = "active";
+		};
+
     this.PLAYERS.players = [].slice.call(document.querySelectorAll('#nav li'));
     this.PLAYERS.count = this.PLAYERS.players.length - 1;// yay zero indexing
 
     this.PLAYERS.players.forEach(function(member, index){
-      member.dataIndex = index;
-      member.onmouseover = function() {
-        PLYR.ONE = this.dataIndex;
-        PLYR.player1();
-      };
+			member.dataIndex = index;
+			member.onmouseover = function() {
+				PLYR.ONE = this.dataIndex;
+				PLYR.player1();
+			};
     });
+
+		titles.forEach(function(title, index){
+			title.setAttribute("data-which", index)
+			title.onclick = tapclick;
+			// title.ontap = tapclick;
+		});
   },
   slide: function(direction) {
     var one = this.ONE;
@@ -81,9 +100,6 @@ var PLYR = {
 
     this.ONE = (one > count) ? 0 : (one < 0) ? count : one;
     this.player1();
-  },
-  swap: function() {
-    
   },
   update: function() {
 		var stats = players.lineup[this.ONE].stats;
@@ -111,11 +127,23 @@ var PLYR = {
 
 		document.querySelector('#player dl').innerHTML = list.innerHTML;
   },
+	oneup: function() {
+		var up = players.lineup[this.ONE]["1up"];
+		var bio = players.lineup[this.ONE]["bio"];
+		var definitions = document.querySelectorAll('#speaker dd');
+
+		definitions[0].innerHTML = up || "select a player above";
+		definitions[1].innerHTML = bio || "select a player above";
+	},
+	swap: function() {
+		
+	},
   init: function() {
     this.listen();
     this.create();
     this.set();
     this.update();
+    this.oneup();
   }
 }
 PLYR.init();
