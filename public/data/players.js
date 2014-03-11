@@ -16,6 +16,7 @@ var players = {
 			"name": "Marcy Sutton",
 			"handle": "marcy",
 			"photo": "marcy.jpg",
+			"twitter": "https://twitter.com/marcysutton",
 			"stats": {
 				"Web Components": 5,
 				"Accessibility": 4,
@@ -26,6 +27,7 @@ var players = {
 			"name": "Wesley Walser",
 			"handle": "wes",
 			"photo": "wes.jpg",
+			"twitter": "https://twitter.com/wewals",
 			"stats": {
 				"Vanilla JS": 4,
 				"Reading code" : 5,
