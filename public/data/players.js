@@ -13,12 +13,6 @@ var players = {
 			"stats": {}
 		},
 		{
-			"name": "locked",
-			"handle": "unknown",
-			"photo": "moomoopixel.png",
-			"stats": {}
-		},
-		{
 			"name": "Marcy Sutton",
 			"handle": "marcy",
 			"photo": "marcy.jpg",
@@ -26,6 +20,16 @@ var players = {
 				"Web Components": 5,
 				"Accessibility": 4,
 				"Bicycles": 4.5
+			}
+		},
+		{
+			"name": "Wesley Walser",
+			"handle": "wes",
+			"photo": "wes.jpg",
+			"stats": {
+				"Vanilla JS": 4,
+				"Reading code" : 5,
+				"Unwrapping food": 1
 			}
 		},
 		{

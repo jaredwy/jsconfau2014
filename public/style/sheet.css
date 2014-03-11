@@ -95,6 +95,10 @@ h2 a {
 	border: .12rem solid rgb(240, 219, 79);
 }
 
+#player.wes figure {
+    background-size: 122%;
+}
+
 #player div {
 	position: relative;
 }
@@ -283,7 +287,6 @@ body > header {
     .nav-row  ul {
     	padding-left: 40px;
     }
-
 
 @media only screen 
 and (min-device-width: 320px) 
