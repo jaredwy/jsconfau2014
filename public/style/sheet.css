@@ -170,6 +170,7 @@ h2 a {
 	border: .1rem dashed #F0DB4F;
 	border-top: none;
 	color: #F0DB4F;
+	display: none;
 	margin-bottom: 1rem;
 	padding-bottom: 1rem;
 	position: relative;
