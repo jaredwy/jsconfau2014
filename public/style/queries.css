@@ -26,13 +26,31 @@
 	}
 }
 
+@media screen and (max-width: 680px) {
+	.nav-row li {
+		padding: 1rem 0;
+		width: 49%;
+  }
+}
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 480px) {
 	#main h1 {
 		text-align: center;
 	}
 
-	.nav-row nav > ul li {
-    width: 90%;
+	section {
+		padding: 0;
+	}
+
+	section article {
+		margin: 0;
+	}
+
+	section img {
+		height: 117px;
+	}
+
+	.nav-row li {
+    width: 100%;
   }
 }
