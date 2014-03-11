@@ -19,10 +19,14 @@ var players = {
 			"stats": {}
 		},
 		{
-			"name": "locked",
-			"handle": "unknown",
-			"photo": "moomoopixel.png",
-			"stats": {}
+			"name": "Marcy Sutton",
+			"handle": "marcy",
+			"photo": "marcy.jpg",
+			"stats": {
+				"Web Components": 5,
+				"Accessibility": 4,
+				"Bicycles": 4.5
+			}
 		},
 		{
 			"name": "David Herman",
@@ -90,14 +94,14 @@ var players = {
 			"bio": "i speak about the javascripts"
 		},
 		{
-			"name": "Jen Fong-Adwent",
-			"handle": "jenfongadwent",
-			"photo": "jenfongadwent.jpg",
-			"twitter": "https://twitter.com/ednapiranha",
+			"name": "Glen Maddern",
+			"handle": "glen",
+			"photo": "glen_320.jpg",
+			"twitter": "https://twitter.com/glenmaddern",
 			"stats": {
 				"GIFs": 5,
-				"WebRTC": 4,
-				"Node": 3
+				"Dance Parties": 4,
+				"Tumblr": 3
 			},
 			"1up": "i am a developer, also",
 			"bio": "i talk about the javascripts, also"

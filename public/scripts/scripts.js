@@ -57,7 +57,7 @@ var PLYR = {
 
     this.PLAYERS.players[this.ONE].className = "current";
     this.update();
-    this.oneup();
+    //this.oneup();
   },
   set: function() {
   	var titles = [].slice.call(document.querySelectorAll('#speaker dt'));
@@ -143,7 +143,7 @@ var PLYR = {
     this.create();
     this.set();
     this.update();
-    this.oneup();
+   // this.oneup();
   }
 }
 PLYR.init();
