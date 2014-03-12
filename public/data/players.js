@@ -7,10 +7,15 @@ var players = {
 			"stats": {}
 		},
 		{
-			"name": "locked",
-			"handle": "unknown",
-			"photo": "moomoopixel.png",
-			"stats": {}
+			"name": "Joel Turnbull",
+			"handle": "joel",
+			"photo": "joel.png",
+			"twitter": "https://twitter.com/edwardawkward",
+			"stats": {
+				"#jQuery": 4.5,
+				"Scholasticism": 5,
+				"Butterflies": 3
+			}
 		},
 		{
 			"name": "Marcy Sutton",
