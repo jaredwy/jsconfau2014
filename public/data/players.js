@@ -1,10 +1,17 @@
 var players = {
 	"lineup": [
 		{
-			"name": "locked",
-			"handle": "unknown",
-			"photo": "moomoopixel.png",
-			"stats": {}
+			"name": "David Herman",
+			"handle": "david",
+			"twitter": "https://twitter.com/littlecalculist",
+			"photo": "david.png",
+			"stats": {
+				"EffectiveJS": 5,
+				"TC39": 3.5,
+				"Propeller Head": 3
+			},
+			"1up": "i am a developer",
+			"bio": "i talk about the javascripts"
 		},
 		{
 			"name": "Joel Turnbull",
@@ -29,41 +36,17 @@ var players = {
 			}
 		},
 		{
-			"name": "Wesley Walser",
-			"handle": "wes",
-			"photo": "wes.jpg",
-			"twitter": "https://twitter.com/wewals",
+			"name": "Dominic Tarr",
+			"handle": "dom",
+			"photo": "domtarr.jpeg",
+			"twitter": "https://twitter.com/dominictarr",
 			"stats": {
-				"Vanilla JS": 4,
-				"Reading code" : 5,
-				"Unwrapping food": 1
-			}
-		},
-		{
-			"name": "David Herman",
-			"handle": "david",
-			"twitter": "https://twitter.com/littlecalculist",
-			"photo": "david.png",
-			"stats": {
-				"EffectiveJS": 5,
-				"TC39": 3.5,
-				"Propeller Head": 3
+				"Wizards": 5,
+				"Node": 4,
+				"Performance": 3
 			},
-			"1up": "i am a developer",
-			"bio": "i talk about the javascripts"
-		},
-		{
-			"name": "Pete Hunt",
-			"twitter": "https://twitter.com/floydophone",
-			"handle": "pete",
-			"photo": "pete.jpg",
-			"stats": {
-				"ReactJS": 5,
-				"Selfies": 4.5,
-				"DOM": 0
-			},
-			"1up": "i too am a developer",
-			"bio": "i too talk about the javascripts"
+			"1up": "i are a developer",
+			"bio": "i speak about the javascripts"
 		},
 		{
 			"name": "Alex Feyerke",
@@ -79,6 +62,43 @@ var players = {
 			"bio": "similarly, i talk about the javascripts"
 		},
 		{
+			"name": "Gilmore Davidson",
+			"handle": "gil",
+			"photo": "gil.jpg",
+			"twitter": "https://twitter.com/iamnotyourbroom",
+			"stats": {
+				"Time zones": 5,
+				"Procrastination": 4,
+				"Love of memes": 0
+			},
+			"1up": "i am a developer, also",
+			"bio": "i talk about the javascripts, also"
+		},
+		{
+			"name": "Pete Hunt",
+			"twitter": "https://twitter.com/floydophone",
+			"handle": "pete",
+			"photo": "pete.jpg",
+			"stats": {
+				"ReactJS": 5,
+				"Selfies": 4.5,
+				"DOM": 0
+			},
+			"1up": "i too am a developer",
+			"bio": "i too talk about the javascripts"
+		},
+		{
+			"name": "Wesley Walser",
+			"handle": "wes",
+			"photo": "wes.jpg",
+			"twitter": "https://twitter.com/wewals",
+			"stats": {
+				"Vanilla JS": 4,
+				"Reading code" : 5,
+				"Unwrapping food": 1
+			}
+		},
+		{
 			"name": "Amy Palamountain",
 			"handle": "amy",
 			"photo": "amy_320.png",
@@ -90,19 +110,6 @@ var players = {
 			},
 			"1up": "i also am a developer",
 			"bio": "i also talk about the javascripts"
-		},
-		{
-			"name": "Dominic Tarr",
-			"handle": "dom",
-			"photo": "domtarr.jpeg",
-			"twitter": "https://twitter.com/dominictarr",
-			"stats": {
-				"Wizards": 5,
-				"Node": 4,
-				"Performance": 3
-			},
-			"1up": "i are a developer",
-			"bio": "i speak about the javascripts"
 		},
 		{
 			"name": "Glen Maddern",
@@ -118,4 +125,4 @@ var players = {
 			"bio": "i talk about the javascripts, also"
 		}
 	]
-}
+};

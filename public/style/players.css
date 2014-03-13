@@ -22,6 +22,11 @@
   background-image: url(../data/avatars/all/amy_320.png);
 }
 
+
+#nav #gil {
+  background-image: url(../data/avatars/all/gil.png);
+}
+
 #nav #unknown {
   background-image: url(../data/avatars/all/moomoopixel_320.png);
 }
