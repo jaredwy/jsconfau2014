@@ -46,11 +46,25 @@
 		margin: 0;
 	}
 
-	section img {
-		height: 117px;
-	}
-
 	.nav-row li {
-    width: 100%;
+    	width: 100%;
+  	}
+  	.nav-row ul {
+    	padding: 0;
+  	}
+  .invader {
+  	display: none;
+  }
+  .art {
+  	height: 117px;
+  }
+  .row {
+  	width: auto;
+  }
+  .large-logo {
+  	width: 300px;
+  }
+  .small-logo {
+  	width: 150px;
   }
 }
