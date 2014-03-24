@@ -24,6 +24,9 @@
 	#player {
 		min-height: 27rem;
 	}
+	.row {
+		width: 706px;
+	}
 }
 
 @media screen and (max-width: 680px) {
