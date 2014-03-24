@@ -33,6 +33,20 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+	.invader:first-child,
+	.invader:last-child{
+		display:none;
+	}
+	.row {
+		width: 862px;
+	}
+	.sponsors {
+		padding: 0;
+	}
+}
+
+
 @media screen and (max-width: 480px) {
 	#main h1 {
 		text-align: center;
